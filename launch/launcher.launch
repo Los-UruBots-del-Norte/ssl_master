@@ -1,0 +1,18 @@
+<launch>
+
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+      <arg name="world_name" value="$(find ssl_master)/worlds/world.world" />
+    </include>
+
+    <include file="$(find open_base)/launch/velocity_controller_1.launch" />
+    <!-- <include file="$(find open_base)/launch/velocity_controller_2.launch" /> -->
+    <!-- <include file="$(find open_base)/launch/velocity_controller_3.launch" />
+    <include file="$(find open_base)/launch/velocity_controller_4.launch" />
+    <include file="$(find open_base)/launch/velocity_controller_5.launch" /> -->
+    <!-- <include file="$(find open_base)/launch/velocity_controller_6.launch" />
+    <include file="$(find open_base)/launch/velocity_controller_7.launch" />
+    <include file="$(find open_base)/launch/velocity_controller_8.launch" />
+    <include file="$(find open_base)/launch/velocity_controller_9.launch" />
+    <include file="$(find open_base)/launch/velocity_controller_10.launch" /> -->
+
+</launch>
